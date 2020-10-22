@@ -8,7 +8,7 @@ echo "Ending point"
 read RANGE_LAST
 echo "Input desired ammount of free IPs"
 read BREAKING_POINT
-echo "Input your list name (single work preferably)"
+echo "Input your list name (single word preferably)"
 read LIST_NAME
 
 touch "$LIST_NAME.txt"
