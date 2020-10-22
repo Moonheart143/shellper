@@ -1,14 +1,14 @@
 #!/bin/sh
-echo "Input your network (x.x.x)"
+echo "Input your network ID in this format - x.x.x"
 read NETWORK_ID
-echo "Input your range (1 to 254)"
-echo "Starting point"
+echo "Input your network range anywhere from 1 to 254)"
+echo "Starting point first"
 read RANGE_FIRST
 echo "Ending point"
 read RANGE_LAST
 echo "Input desired ammount of free IPs"
 read BREAKING_POINT
-echo "Input your list name (single word preferably)"
+echo "Input your list name - single word preferably, without extension"
 read LIST_NAME
 
 touch "$LIST_NAME.txt"
